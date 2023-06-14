@@ -91,9 +91,9 @@ header a:not(:first-child) {
 }
 
 #banner h1 {
-    margin: 20% 0 2% 0;
+    margin: 20% 10% 2% 10%;
     font-size: 350%;
-    padding: 0 20%;
+    padding: 0 2%;
 }
 
 #banner p {
