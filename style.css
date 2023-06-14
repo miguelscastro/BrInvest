@@ -114,6 +114,10 @@ header a:not(:first-child) {
     height: 100%;
 }
 
+#video iframe:focus {
+    outline: none;
+}
+
 /* Conteúdo - pós #banner */
 #content-head {
     display: flex;
@@ -201,7 +205,7 @@ header a:not(:first-child) {
     height: auto;
     margin: 5% 0 3% 0;
     background-color: #bfd3e4;
-    padding: 2% 0;
+    padding: 1% 0 2% 0;
 }
 
 /* Form. de contato */ 
