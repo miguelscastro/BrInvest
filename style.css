@@ -3,7 +3,7 @@
     --main-color: #312e2e;
     --banner-color: #fff;
     --background1-color: #e7ecf1;
-    --background2-color: #a6bdd1;
+    --background2-color: #22303b;
     --border-color: #968d8dcb;
     --headlink-color: #929daf;
     --boxlink-color: #586c85;
@@ -204,7 +204,7 @@ header a:not(:first-child) {
     width: 65%;
     height: auto;
     margin: 5% 0 3% 0;
-    background-color: #bfd3e4;
+    background-color: #253542;
     padding: 1% 0 2% 0;
 }
 
@@ -225,7 +225,7 @@ header a:not(:first-child) {
   
 .backcolorForm {
     background-color: var(--background2-color);
-    color: var(--main-color);
+    color: var(--banner-color);
     font-size: medium;
     resize: vertical;
     margin-bottom: 4%;
@@ -237,7 +237,7 @@ header a:not(:first-child) {
     border: 1px solid var(--border-color);
     padding: 0 2%;
     width: 50%;
-    margin: 2% 0;
+    /* margin: 2% 0; */
     border: none;
 }
 
@@ -258,12 +258,12 @@ header a:not(:first-child) {
 
 #form input::placeholder, #form textarea::placeholder {
     padding: 5px 0 0 15px;
-    color: #373847;
+    color: var(--banner-color);
 }
   
 #button {
-    background-color: #bfd3e4;
-    color: var(--main-color);
+    background-color: #3c4953;
+    color: var(--banner-color);
     font-size: 95%;
     font-weight: bold;
     height: auto;
@@ -285,8 +285,8 @@ header a:not(:first-child) {
 }
 
 #bottom-style button {
-    color: var(--main-color);
-    background-color: #bdcfdf;
+    color: var(--banner-color);
+    background-color: #253542;
     margin: 0 3% 0.5% 1%;
     padding: 0.5% 1% 0 1%;
     font-size: 150%;
